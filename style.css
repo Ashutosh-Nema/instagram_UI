@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#container {
+  border: 1px solid rgb(228, 235, 228);
+  width: 25%;
+  margin: 25px 30%;
+  padding: 2px;
+  height: 55vh;
+}
+img {
+  cursor: pointer;
+}
+img:hover {
+  background-color: rgb(146, 255, 255);
+  transition-duration: 2s;
+  transform: rotate(45deg);
+  transition-property: background;
+  transition-delay: 2s;
+}
+
+hr {
+  border: none;
+  border-top: 1px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin-left: 52px;
+  margin-right: 52px;
+}
+hr::after {
+  background: #fff;
+  content: "OR";
+  padding: 0 5px;
+  position: relative;
+  top: -10px;
+}
+
+.buttons {
+  margin: 13px;
+  height: 12vh;
+}
+input {
+  width: 62%;
+  height: 7vh;
+  margin: 3.5px;
+  border: 2px solid rgba(228, 228, 228, 0.778);
+  border-radius: 4px;
+  text-decoration: solid;
+  margin-right: 1%;
+  text-align: -webkit-left;
+  padding: 9px 0 7px 8px;
+  cursor: pointer;
+  background-color: rgb(250, 250, 250);
+  text-overflow: ellipsis;
+}
+.login {
+  margin: 3px;
+  padding: 5px;
+}
+.login button {
+  width: 69%;
+  height: 5vh;
+  background-color: #4787ef;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: 3px solid #fefefe;
+  border-radius: 8px;
+  padding: 3px;
+  text-align: -webkit-center;
+  cursor: pointer;
+}
+
+h4 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 18px;
+  padding-left: 213px;
+  padding-right: 213px;
+  color: rgba(173, 164, 164, 0.703);
+  font-size: 14px;
+  font-weight: 600;
+}
+h4:before,
+h4:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid black;
+  margin: auto;
+}
+h4:before {
+  margin-right: 11px;
+}
+h4:after {
+  margin-left: 11px;
+}
+
+.facebook {
+  cursor: pointer;
+  margin: 4px;
+  color: rgb(34, 34, 146);
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.facebook:hover {
+  text-decoration: underline rgb(80, 80, 169);
+}
+
+.facebook img {
+  max-width: 7%;
+  cursor: pointer;
+  padding: 4px;
+}
+.facebook img:hover {
+  background-color: rgb(92, 92, 231);
+}
+.forgot {
+  margin: 12px;
+  padding: 2px;
+  color: #00376b;
+  cursor: pointer;
+  font-size: 12px;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+#box1 {
+  margin: 4px 30%;
+  width: 25%;
+  height: 9vh;
+  border: 2px solid rgb(228, 235, 228);
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  overflow: hidden;
+  position: relative;
+}
+#box1 p {
+  margin: 20px;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 11px;
+  overflow: hidden;
+}
+#box1 p:hover {
+  background-color: powderblue;
+  transition-property: transform;
+  transition-timing-function: ease;
+}
+#box2 {
+  margin: 9px 30%;
+
+  width: 25%;
+  height: 15vh;
+  padding: 2.5px;
+  background-color: #fafafa;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 12px;
+}
+.images img {
+  max-width: 38%;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.footer-section {
+  margin: 5px;
+  padding: 2px;
+}
+.footer-section ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+.footer-section ul li a {
+  text-decoration: none;
+  color: rgb(179, 150, 113);
+}
+.footer-section ul li a:hover {
+  text-decoration: overline red;
+  transition: all 200ms, opacity 400ms;
+}
